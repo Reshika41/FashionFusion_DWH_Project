@@ -151,6 +151,7 @@ Data Modeling	Star Schema
 Visualization	Power BI Desktop
 Theme	Custom YouTube Dark JSON
 Languages	SQL, DAX
+
 🔗 How to Run This Project
 1️⃣ Clone the repo
 git clone https://github.com/reshikamiriyala/FashionFusion_DWH.git

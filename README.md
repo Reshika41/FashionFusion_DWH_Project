@@ -18,31 +18,6 @@ Power BI (YouTube Dark Theme) for business insights
 
 The objective is to analyze online retail transactions, design a clean cloud data warehouse, and deliver actionable insights about revenue trends, product performance, customer behavior, and country-wise sales.
 
-📁 Repository Structure
-FashionFusion_DWH_Project/
-│
-├── data/
-│   └── online_retail_II.csv
-│
-├── sql/
-│   ├── 01_create_clean_view.sql
-│   ├── 02_dim_country.sql
-│   ├── 03_dim_product.sql
-│   ├── 04_dim_customer.sql
-│   ├── 05_dim_date.sql
-│   └── 06_fact_sales.sql
-│   └── 07_view_sales_by_month
-│   └── 08_view_top_products
-│   └── 09_customer_lifetime_value
-│
-├── bi/
-│   ├── FashionFusion_Dashboard.pbix
-│   └── youtube-dark.json
-│   ├── executive_overview.png
-│   └── product_performance.png
-│
-└── README.md
-
 🧱 Data Architecture
 🔹 Source Layer (Raw Data)
 
@@ -178,7 +153,7 @@ Theme	Custom YouTube Dark JSON
 Languages	SQL, DAX
 🔗 How to Run This Project
 1️⃣ Clone the repo
-git clone https://github.com/username/FashionFusion_DWH.git
+git clone https://github.com/reshikamiriyala/FashionFusion_DWH.git
 
 2️⃣ Load dataset into BigQuery
 

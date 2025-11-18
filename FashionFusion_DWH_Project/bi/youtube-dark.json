@@ -1,0 +1,66 @@
+{
+  "name": "YouTube Dark Theme",
+  "dataColors": [
+    "#FF0000",
+    "#3EA6FF",
+    "#00E676",
+    "#FFEA00",
+    "#BB86FC",
+    "#FF80AB"
+  ],
+  "background": "#0F0F0F",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#FF0000",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{
+          "fontSize": 14,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#181818" } },
+          "transparency": 0
+        }],
+        "border": [{
+          "color": { "solid": { "color": "#303030" } },
+          "show": false
+        }],
+        "visualHeader": [{
+          "background": { "solid": { "color": "#181818" } }
+        }]
+      }
+    },
+
+    "card": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#212121" } },
+          "transparency": 0
+        }],
+        "title": [{
+          "color": { "solid": { "color": "#AAAAAA" } }
+        }],
+        "labels": [{
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }]
+      }
+    },
+
+    "slicer": {
+      "*": {
+        "items": [{
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "header": [{
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#181818" } },
+          "transparency": 0
+        }]
+      }
+    }
+  }
+}
